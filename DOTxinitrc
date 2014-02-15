@@ -1,0 +1,29 @@
+swapon /4gig_swap &
+dhcpcd enp4s0 & #configure network
+
+xset -b & #disable beep when pressing delete, etc., in terminal
+xsetroot -cursor_name left_ptr &
+
+#changes the thingy to Google's
+#rm /etc/resolv.conf
+#cp ~/resolv.conf /etc/resolv.conf
+resolvconf-fixer &
+
+#emacs --daemon
+
+#trayer &
+#synergy &
+#exec startlxde
+#exec gnome-session
+#exec startkde
+exec xmonad
+#exec enlightenment_start
+
+#xrandr --output DVI-1 --mode 1920x1080 --pos 0x0 --output DVI-0 --mode 1024x768 --pos 1920x0
+
+setxkbmap -option ctrl:swapcaps
+
+#keyboard change
+setxkbmap -layout "us, ru" -option "grp:alt_shift_toggle"
+
+keynav &

@@ -1,0 +1,10 @@
+[core]
+   editor = vim
+[user]
+	email = kostyarjcnz@gmail.com
+	name = Konstantin Kowalski
+	signingkey = 5089C602
+[credential]
+	helper = cache
+[color]
+	ui = auto

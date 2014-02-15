@@ -1,0 +1,16 @@
+g() { eval "guile -c \"(display ($*))(newline)\"" }
+
+alias pac="pacman-key --lsign-key 0xabed422d653c3094; pacman-key --keyserver pgp.mit.edu --recv-keys 0xabed422d653c3094"
+
+bindkey -v
+
+export USE_CCACHE=1
+export _JAVA_AWT_WM_NONREPARENTING=1
+export PATH=/root/misc/fakegcc:$PATH
+export PATH=$PATH:~/.gem/ruby/2.0.0/bin
+export PATH=$PATH:/root/coursera/scala/sbt/bin
+export PATH=$PATH:/root/android/bin
+export PATH=/root/.cabal/bin:$PATH
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/.cabal/lib
+

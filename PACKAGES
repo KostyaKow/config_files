@@ -1,0 +1,12 @@
+ghc
+xmonad
+xserverstuff
+vim
+   -pathogen
+   -taglist
+   -NERDlist
+emacs
+   -evil
+zsh
+guile
+vimperator
