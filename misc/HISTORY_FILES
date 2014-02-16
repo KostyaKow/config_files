@@ -1,0 +1,7 @@
+.ghc/ghci_history
+.zsh_history
+.bash_history
+.guile_history
+
+.coffee_history
+.geiser_history.[guile|racket]
